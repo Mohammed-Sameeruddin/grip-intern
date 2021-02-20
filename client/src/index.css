@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(62, 62, 143);
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    margin-top: 10px;
+}
+
+.home {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: blue;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    padding:10px;
+    text-align: center;
+}
+
+.footer {
+    bottom: 0;
+    left:0;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    width: 100%;
+    bottom:0;
+   
+}
+
+.footerContent {
+
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.viewAll {
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.view {
+    text-align: center;
+    align-items: center;
+}
+
+#viewTable {
+    width:100%;
+}
+.mytable {
+    width:100%;
+}
+
+#t01 tr:nth-child(even) {
+background-color: white;
+  }
+#t01 tr:nth-child(odd) {
+   background-color:rgb(232, 232, 240);
+  }
+
+th {
+    font-weight: bolder;
+    background-color:rgb(69, 69, 122);
+    color: whitesmoke;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 15px;
+  }
+
+.transfer {
+    margin:20px;
+}
+
+
+#btn {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#t1 {
+    margin-top: 20px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:425px){
+    th,td {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:375px){
+    th, td {
+        padding: 3px;
+      }
+      .alert {
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width:320px){
+    th, td {
+        padding: 2px;
+        font-size: smaller;
+      }
+    .alert {
+        font-size: smaller;
+    }
+}
